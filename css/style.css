@@ -1,0 +1,238 @@
+/*=====================
+    COMMON CSS START 
+======================*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*=====================
+    COMMON CSS END 
+======================*/
+
+/*=====================
+    HEADER START 
+======================*/
+header{
+    padding: 20px 0;
+}
+.logo{
+    margin-top: 14px;
+    width: 12%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 60px;
+    padding: 4px 1px 3px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+   border-bottom: 1px solid #626262;
+}
+/*=====================
+    HEADER END
+======================*/
+
+/*=====================
+    BANNER START
+======================*/
+.banner{}
+.banner-img img{
+    width: 100%;
+}
+
+/*=====================
+    PERFECT START
+======================*/
+.perfect{
+    padding: 100px 0;
+}
+.container-2{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.c-light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c-heading{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c-text{
+    line-height: 26px;
+    margin: 0;
+}
+.m-bottom40{
+    margin-bottom: 40px;
+}
+
+/*=====================
+    Blog START
+======================*/
+.blogs{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.single{
+    margin-top: 70px;
+    width: 47%;
+    float: left;
+}
+.single:nth-child(even){
+    margin-left: 6%;
+}
+.blog-img {
+    margin-bottom: 25px;
+}
+.blog-img img{
+    width: 100%;
+}
+
+/*=====================
+    Newsletter START
+======================*/
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+/*=====================
+    Button START
+======================*/
+.button{
+    margin: 150px 0 200px;
+}
+.lm-button{
+    text-align: center;
+}
+.lm-button button{
+    color: #626262;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #626262;
+    background-color: transparent;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.lm-button button:hover{
+    color: #000000;
+    border: 1px solid #333333;
+}
+/*=====================
+    Footer START
+======================*/
+footer{
+    background: #f0f0f0;
+    padding: 20px 0;
+}
+.footer-text{
+    width: 30%;
+    float: left;
+}
+.footer-text p{
+    color: #000000;
+}
+.f-menu{
+    width: 40%;
+    float: right;
+}
+.f-menu ul{
+    float: right;
+}
+.f-menu ul li{
+    list-style: none;
+    float: left;
+}
+.f-menu ul li a{
+    margin: 0 10px;
+    padding: 4px 1px 3px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+.f-menu ul li:last-child a{
+    margin-right: 0;
+}
